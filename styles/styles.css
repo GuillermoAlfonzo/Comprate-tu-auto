@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/*   font-family: "Montserrat", sans-serif; */
+
+/*Estilos generales*/
+
+body {
+    background-color: rgb(188, 204, 231);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: rgb(112, 147, 213);
+}
+
+
+footer {
+    background-color: rgb(48, 68, 105);
+}
+
+/*Estilos header*/
+
+.nav-li {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(13, 31, 133);
+}
+
+.nav-li-logo {
+    list-style-type: none;
+}
+
+/*Estilos index*/
+
+.titulo-index {
+    font-size: 50px;
+}
+
+.servicio-index-li {
+    list-style-type: none;
+}
+
+/*Estilos servicios*/
+
+.servicio-servicios-li {
+    list-style-type: none;
+}
+
+/*Estilos reseñas*/
+
+.reseña-reseñas-li {
+    list-style-type: none;
+}
+
+/*Estilos ayuda*/
+
+.preguntas-ayuda-li {
+    list-style-type: none;
+}
+
+/*Estilos footer*/
+
+.footer-li {
+    list-style-type: none;
+}
