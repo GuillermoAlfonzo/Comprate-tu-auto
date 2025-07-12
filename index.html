@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Comprate tu auto</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -31,18 +31,22 @@
         </nav>
     </header>
     
-    <main>
-        <section>
-            <h1 class="titulo-index">¡Comprate tu auto!</h1>
-            <h3>¿Quienes somos?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci fugiat corrupti at ratione maxime voluptatibus enim accusantium earum perferendis voluptate, atque recusandae aperiam placeat! Fugit hic labore assumenda eaque.
-            Ex itaque quas esse hic quam fugiat architecto tenetur blanditiis officiis eaque neque iste totam expedita accusantium, mollitia deserunt minima magnam odit aliquid non. Soluta maiores atque natus repellendus officiis!</p>
-            <h3>¿Que ofrecemos?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum expedita molestias asperiores? Doloremque unde obcaecati velit, odio neque cupiditate incidunt atque veniam quisquam repudiandae voluptates quos quasi, iste minus.
-            Omnis voluptate eveniet ipsum quos nisi impedit ullam doloribus, perspiciatis consequatur ab aut. Exercitationem voluptate accusantium placeat sequi rem! Libero ipsa cupiditate maxime sequi id a. Adipisci dicta aut accusantium.</p>
+    <main class="flex-grow-1">
+        <h1 class="index-titulo text-center display-4">¡Comprate tu auto!</h1>
+        <section class="container-fluid row text-center">
+            <div class="col-6">
+                <h3 class="index-subtitulo">¿Quienes somos?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci fugiat corrupti at ratione maxime voluptatibus enim accusantium earum perferendis voluptate, atque recusandae aperiam placeat! Fugit hic labore assumenda eaque.
+                Ex itaque quas esse hic quam fugiat architecto tenetur blanditiis officiis eaque neque iste totam expedita accusantium, mollitia deserunt minima magnam odit aliquid non. Soluta maiores atque natus repellendus officiis!</p>
+            </div>
+            <div class="col-6">
+                <h3 class="index-subtitulo">¿Que ofrecemos?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum expedita molestias asperiores? Doloremque unde obcaecati velit, odio neque cupiditate incidunt atque veniam quisquam repudiandae voluptates quos quasi, iste minus.
+                Omnis voluptate eveniet ipsum quos nisi impedit ullam doloribus, perspiciatis consequatur ab aut. Exercitationem voluptate accusantium placeat sequi rem! Libero ipsa cupiditate maxime sequi id a. Adipisci dicta aut accusantium.</p>
+            </div>
         </section>
-        <section>
-            <h3>Servicios</h3>
+        <section class="container-fluid text-center">
+            <h3 class="index-subtitulo">Servicios</h3>
             <ul>
                 <li class="servicio-index-li">
                     <h3>Servicio 1</h3>
