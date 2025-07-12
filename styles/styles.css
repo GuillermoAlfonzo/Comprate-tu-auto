@@ -37,6 +37,14 @@ footer {
     border-width: 15px;
 }
 
+.custom-navbar-toggler {
+    border-width: 0px;
+}
+
+.custom-navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .custom-navbar-nav {
     display: flex;
     flex-direction: row;
@@ -49,6 +57,14 @@ footer {
     color: black;
     font-size: large;
     font-weight: 500;
+}
+
+.custom-nav-link:hover {
+    text-decoration: underline;
+}
+
+.custom-nav-link-toggled {
+    text-decoration: underline;
 }
 
 /*Estilos index*/
