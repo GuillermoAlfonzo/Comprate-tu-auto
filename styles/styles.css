@@ -17,35 +17,38 @@ header {
     background-color: rgb(112, 147, 213);
 }
 
-
 footer {
     background-color: rgb(48, 68, 105);
 }
 
 /*Estilos header*/
 
-.navbar-nav {
-  display: flex;
-  gap: 30px;
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
 }
 
-.navbar-collapse {
-  display: flex;
-  justify-content: flex-end;
+.menu {
+    border-color: blue;
+    border-width: 15px;
 }
 
-.nav-li {
-    list-style-type: none;
+.custom-navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 70px;
+    margin-right: 200px;
 }
 
-.nav-link {
-    text-decoration: none;
-    font-size: 23px;
-    color: rgb(13, 31, 133);
-}
-
-.nav-li-logo {
-    list-style-type: none;
+.custom-nav-link {
+    color: black;
+    font-size: large;
+    font-weight: 500;
 }
 
 /*Estilos index*/
