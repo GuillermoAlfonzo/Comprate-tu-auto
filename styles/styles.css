@@ -48,34 +48,10 @@ footer {
 
 /*Estilos index*/
 
-.titulo-index {
-    font-size: 50px;
-}
-
-.servicio-index-li {
-    list-style-type: none;
-}
-
 /*Estilos servicios*/
-
-.servicio-servicios-li {
-    list-style-type: none;
-}
 
 /*Estilos reseñas*/
 
-.reseña-reseñas-li {
-    list-style-type: none;
-}
-
 /*Estilos ayuda*/
 
-.preguntas-ayuda-li {
-    list-style-type: none;
-}
-
 /*Estilos footer*/
-
-.footer-li {
-    list-style-type: none;
-}
