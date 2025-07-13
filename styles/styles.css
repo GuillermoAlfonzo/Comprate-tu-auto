@@ -23,50 +23,6 @@ footer {
 
 /*Estilos header*/
 
-.logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 150px;
-    width: 75px;
-    height: 75px;
-}
-
-.menu {
-    border-color: blue;
-    border-width: 15px;
-}
-
-.custom-navbar-toggler {
-    border-width: 0px;
-}
-
-.custom-navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.custom-navbar-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 70px;
-    margin-right: 200px;
-}
-
-.custom-nav-link {
-    color: black;
-    font-size: large;
-    font-weight: 500;
-}
-
-.custom-nav-link:hover {
-    text-decoration: underline;
-}
-
-.custom-nav-link-toggled {
-    text-decoration: underline;
-}
-
 /*Estilos index*/
 
 .titulo-index {
