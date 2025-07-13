@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(188, 204, 231);
+    background-color: rgb(209, 209, 209);
     font-family: "Montserrat", sans-serif;
 }
 
@@ -23,6 +23,28 @@ footer {
 }
 
 /*Estilos header*/
+
+.logo-nav {
+  height: 110px;
+  width: auto;
+}
+
+.custom-navbar-toggler {
+  height: 50px;
+  width: 50px;
+}
+
+.custom-menu {
+  width: auto;
+  height: 65px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.594);
+  border-radius: 40px;
+}
+
+.custom-nav-link {
+  font-weight: bold;
+}
 
 /*Estilos index*/
 

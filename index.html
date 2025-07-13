@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootsrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Comprate tu auto</title>
@@ -15,53 +16,87 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="./assets/logo2.png" alt="Logo Comprate tu auto" width="120" height="120">
+                    <img class="logo-nav" src="./assets/logo2.png">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button class="navbar-toggler custom-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <img class="custom-navbar-toggler" src="./assets/menu.png" alt="">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto nav-underline">
-                        <li class="nav-item"><a class="nav-link" href="./pages/servicios.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/reseñas.html">Contactanos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/reseñas.html">Reseñas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/ayuda.html">Ayuda</a></li>
+                        <li class="nav-item"><a class="nav-link custom-nav-link" href="./pages/servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link custom-nav-link" href="./pages/reseñas.html">Contactanos</a></li>
+                        <li class="nav-item"><a class="nav-link custom-nav-link" href="./pages/reseñas.html">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link custom-nav-link" href="./pages/ayuda.html">Ayuda</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
-    <main class="flex-grow-1">
-        <h1 class="index-titulo text-center display-4">¡Comprate tu auto!</h1>
-        <section class="container-fluid row text-center">
-            <div class="col-6">
-                <h3 class="index-subtitulo">¿Quienes somos?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci fugiat corrupti at ratione maxime voluptatibus enim accusantium earum perferendis voluptate, atque recusandae aperiam placeat! Fugit hic labore assumenda eaque.
-                Ex itaque quas esse hic quam fugiat architecto tenetur blanditiis officiis eaque neque iste totam expedita accusantium, mollitia deserunt minima magnam odit aliquid non. Soluta maiores atque natus repellendus officiis!</p>
-            </div>
-            <div class="col-6">
-                <h3 class="index-subtitulo">¿Que ofrecemos?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum expedita molestias asperiores? Doloremque unde obcaecati velit, odio neque cupiditate incidunt atque veniam quisquam repudiandae voluptates quos quasi, iste minus.
-                Omnis voluptate eveniet ipsum quos nisi impedit ullam doloribus, perspiciatis consequatur ab aut. Exercitationem voluptate accusantium placeat sequi rem! Libero ipsa cupiditate maxime sequi id a. Adipisci dicta aut accusantium.</p>
+    <!--Main-->
+    <main>
+        <!--Banner-->
+        <section class="hero bg-dark text-white text-center py-5">
+            <div class="container">
+                <h1>Comprate tu auto</h1>
+                <p class="lead">Tu aliado para comprar, vender y gestionar tu auto sin complicaciones.</p>
             </div>
         </section>
-        <section class="container-fluid text-center">
-            <h3 class="index-subtitulo">Servicios</h3>
-            <ul>
-                <li class="servicio-index-li">
-                    <h3>Servicio 1</h3>
-                </li>
-                <li class="servicio-index-li">
-                    <h3>Servicio 2</h3>
-                </li>
-                <li class="servicio-index-li">
-                    <h3>Servicio 3</h3>
-                </li>
-            </ul>
+        <!--Info-->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">¿Qué es Comprate tu auto?</h2>
+                <p class="text-center mx-auto" style="max-width: 800px;"> Somos un servicio integral que te acompaña en todo el proceso de compra, venta y gestión de tu auto. Desde la recomendación del vehículo perfecto, hasta la venta del tuyo y la gestión de trámites.
+                </p>
+            </div>
         </section>
+        <!--Servicios-->
+        <section id="servicios" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Nuestros Servicios</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Servicio 1 -->
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="bi bi-search display-5 text-primary"></i>
+                                </div>
+                                <h5 class="card-title">Asesoramiento y Búsqueda</h5>
+                                <p class="card-text">Te ayudamos a elegir el auto ideal según tus necesidades, lo buscamos en todas las plataformas y revisamos su estado mecánico.</p>
+                                <a href="./pages/servicios.html#servicio1" class="btn btn-primary">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Servicio 2 -->
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="bi bi-cash-coin display-5 text-success"></i>
+                                </div>
+                                <h5 class="card-title">Venta y Cotización</h5>
+                                <p class="card-text"> Cotizamos tu auto y gestionamos todo el proceso de venta para que obtengas el mejor precio sin complicaciones.</p>
+                                <a href="./pages/servicios.html#servicio2" class="btn btn-primary">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Servicio 3 -->
+                    <div class="col">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="bi bi-file-earmark-text display-5 text-warning"></i>
+                                </div>
+                                <h5 class="card-title">Gestión Económica y Legal</h5>
+                                <p class="card-text">Trámites, financiación, escribanía, seguros y más. Nos encargamos de todo para que vos no te preocupes por nada.</p>
+                                <a href="./pages/servicios.html#servicio3" class="btn btn-primary">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
     </main>
-
     <footer class="container-fluid row">
         <div class="col-4">
             <h4>Contacto</h4>
