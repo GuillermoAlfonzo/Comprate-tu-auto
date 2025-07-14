@@ -71,7 +71,7 @@ footer {
 .banner-sec {
   padding: 70px;
   text-align: center;
-  background-color: rgba(0, 43, 136, 0.378);
+  background-color: rgba(3, 114, 225, 0.386);
 }
 
 .banner-sec h2{
@@ -84,16 +84,17 @@ footer {
 .servicios-index {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: rgba(0, 43, 136, 0.259);
+  background-color: rgba(3, 114, 225, 0.527);
 }
 
 .servicios-index h2 {
   font-size: x-large;
   text-align: center;
+  font-weight: bold
 }
 
 .custom-card-body {
-  background-color: rgba(31, 32, 45, 0.059);
+  background-color: rgba(255, 255, 255, 0.405);
   border-width: 1px;
   border-radius: 25px;
   border-color: rgba(0, 0, 0, 0.435);
@@ -116,7 +117,7 @@ footer {
 /*Estilos servicios*/
 
 .custom-servicio {
-  background-color: rgba(0, 43, 136, 0.386);
+  background-color: rgba(3, 114, 225, 0.386);
 }
 
 .custom-servicio h3 {
@@ -129,7 +130,7 @@ footer {
 }
 
 .custom-servicio2 {
-  background-color: rgba(0, 43, 136, 0.259);
+  background-color: rgba(3, 114, 225, 0.527);
 }
 
 .custom-servicio2 h3 {
@@ -150,7 +151,30 @@ footer {
   border-radius: 25px;
 }
 
-/*Estilos reseñas*/
+/*Estilos contacto*/
+
+.donde-encontrarnos {
+  background-color: rgba(3, 114, 225, 0.386);
+}
+
+.donde-encontrarnos h3 {
+  font-weight: bold;
+}
+
+.medios-de-consulta {
+  background-color: rgba(3, 114, 225, 0.527);
+}
+
+.medios-de-consulta h3 {
+  font-weight: bold;
+}
+
+.custom-form-control {
+  border-color: rgba(0, 0, 0, 0.42);
+  border-radius: 10px;
+}
+
+
 
 /*Estilos ayuda*/
 

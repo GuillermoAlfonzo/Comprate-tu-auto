@@ -34,78 +34,87 @@
         </nav>
     </header>
 
-    <main class="container py-5">
-        <h2 class="text-center mb-5">Contacto</h2>
+    <main>
+        <!--Banner-->
+        <section class="banner">
+            <h2>Contacto</h2>
+        </section>
         <!-- Dónde encontrarnos -->
-        <section class="container py-5 mb-5">
-            <h3 class="text-center mb-4">¿Dónde encontrarnos?</h3>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <p><i class="bi bi-geo-alt-fill me-2"></i><strong>Dirección:</strong> Bv Artigas 9999, Oficina 901</p>
-                    <p><i class="bi bi-telephone-fill me-2"></i><strong>Teléfono:</strong> 2700 1000</p>
-                    <p><i class="bi bi-envelope-fill me-2"></i><strong>Email:</strong> contacto@compratetuauto.com</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="ratio ratio-16x9">
-                        <iframe 
-                            src="https://www.google.com/maps?q=-34.9011,-56.1645&z=15&output=embed"
-                            allowfullscreen
-                            loading="lazy">
-                        </iframe>
+        <section class="py-5 donde-encontrarnos">
+            <div class="container">
+                <h3 class="text-center mb-4">¿Dónde encontrarnos?</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <p><i class="bi bi-geo-alt-fill me-2"></i><strong>Dirección:</strong> Bv Artigas 9999, Oficina 901</p>
+                        <p><i class="bi bi-telephone-fill me-2"></i><strong>Teléfono:</strong> 2700 1000</p>
+                        <p><i class="bi bi-envelope-fill me-2"></i><strong>Email:</strong> contacto@compratetuauto.com</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ratio ratio-16x9">
+                            <iframe 
+                                src="https://www.google.com/maps?q=-34.9011,-56.1645&z=15&output=embed"
+                                allowfullscreen
+                                loading="lazy">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Medios de consulta -->
-        <section class="mb-5">
-            <h3 class="text-center mb-4">Medios de consulta</h3>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <h5 class="text-center"><i class="bi bi-telephone-fill me-2"></i>Teléfono</h5>
-                    <p>2700 1000</p>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="text-center"><i class="bi bi-whatsapp me-2"></i>WhatsApp</h5>
-                    <p>099 000 000</p>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="text-center"><i class="bi bi-envelope-fill me-2"></i>Email</h5>
-                    <p>ejemplo@gmail.com</p>
-                </div>
+        <section class="py-5 medios-de-consulta">
+            <div class="container">
+                <h3 class="text-center mb-4">Medios de consulta</h3>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h5 class="text-center"><i class="bi bi-telephone-fill me-2"></i>Teléfono</h5>
+                        <p>2700 1000</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-center"><i class="bi bi-whatsapp me-2"></i>WhatsApp</h5>
+                        <p>099 000 000</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-center"><i class="bi bi-envelope-fill me-2"></i>Email</h5>
+                        <p>ejemplo@gmail.com</p>
+                    </div>
+                </div>    
             </div>
         </section>
         <!-- Formulario de contratación -->
-        <section class="mb-5">
-            <h3 class="text-center mb-4">¿Querés sumarte al equipo?</h3>
-            <p class="text-center">Completá el siguiente formulario para enviarnos tu currículum:</p>
-            <form id="cvForm" class="needs-validation" novalidate>
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <input type="text" class="form-control" placeholder="Nombre" required>
-                        <div class="invalid-feedback">Por favor, ingresá tu nombre.</div>
+        <section class="py-5 donde-encontrarnos">
+            <div class="container">
+                <h3 class="text-center mb-4">¿Querés sumarte al equipo?</h3>
+                <p class="text-center">Completá el siguiente formulario para enviarnos tu currículum:</p>
+                <form id="cvForm" class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control custom-form-control" placeholder="Nombre" required>
+                            <div class="invalid-feedback">Por favor, ingresá tu nombre.</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control custom-form-control" placeholder="Apellido" required>
+                            <div class="invalid-feedback">Por favor, ingresá tu apellido.</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control custom-form-control" placeholder="Email" required>
+                            <div class="invalid-feedback">Ingresá un email válido.</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="tel" class="form-control custom-form-control" placeholder="Teléfono" required>
+                            <div class="invalid-feedback">Ingresá un número de teléfono.</div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="cvFile" class="form-label">Subí tu CV (PDF, máx. 5MB):</label>
+                            <input type="file" class="form-control custom-form-control" id="cvFile" accept=".pdf" required>
+                            <div class="invalid-feedback">Seleccioná un archivo en formato PDF.</div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary custom-button-primary">Enviar</button>
+                        </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <input type="text" class="form-control" placeholder="Apellido" required>
-                        <div class="invalid-feedback">Por favor, ingresá tu apellido.</div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <input type="email" class="form-control" placeholder="Email" required>
-                        <div class="invalid-feedback">Ingresá un email válido.</div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <input type="tel" class="form-control" placeholder="Teléfono" required>
-                        <div class="invalid-feedback">Ingresá un número de teléfono.</div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <label for="cvFile" class="form-label">Subí tu CV (PDF, máx. 5MB):</label>
-                        <input type="file" class="form-control" id="cvFile" accept=".pdf" required>
-                        <div class="invalid-feedback">Seleccioná un archivo en formato PDF.</div>
-                    </div>
-                    <div class="col-12 text-center">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </section>
     </main>
 
@@ -138,7 +147,7 @@
             </div>
             <!-- Línea inferior -->
             <div class="text-center mt-4 border-top pt-3">
-            <small>© 2025 Comprate tu auto. Todos los derechos reservados.</small>
+                <small>© 2025 Comprate tu auto. Todos los derechos reservados.</small>
             </div>
         </div>
     </footer>
