@@ -42,6 +42,11 @@ footer {
   border-radius: 40px;
 }
 
+.custom-menu:focus {
+  box-shadow: none;
+  background-color: lightgray;
+}
+
 .custom-nav-link {
   font-weight: bold;
 }
@@ -206,6 +211,10 @@ footer {
   margin-bottom: 1rem;
 }
 
-/*Estilos ayuda*/
-
 /*Estilos footer*/
+
+.custom-footer {
+  background-color: rgb(31, 32, 45);
+  color: white;
+  padding-top: 50px;
+}
