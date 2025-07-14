@@ -34,87 +34,92 @@
         </nav>
     </header>
     
-    <main class="container py-5">
-        <h2 class="text-center mb-5">Reseñas de nuestros clientes</h2>
-        <div class="accordion" id="accordionReseñas">
-            <!-- Reseña 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Asesoramiento y Búsqueda - "Encontré justo lo que necesitaba"
+    <main>
+        <!--Banner-->
+        <section class="banner">
+            <h2>Reseñas de nuestros clientes</h2>
+        </section>
+        <section class="custom-servicio">
+            <div class="accordion container py-5" id="accordionReseñas">
+                <!-- Reseña 1 -->
+                <div class="accordion-item custom-accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed custom-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Asesoramiento y Búsqueda - "Encontré justo lo que necesitaba"
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionReseñas">
+                        <div class="accordion-body">
+                            <p><strong>Nombre:</strong> María Gómez</p>
+                            <p><small class="text-muted">Publicado el: 25/06/2025</small></p>
+                            <p>
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </p>
+                            <p>"Me ayudaron a encontrar un auto perfecto para mi familia y se encargaron de todo. Excelente servicio y atención."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reseña 2 -->
+                <div class="accordion-item custom-accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed custom-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Venta y Cotización - "Vendí sin estrés"
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionReseñas">
+                        <div class="accordion-body">
+                            <p><strong>Nombre:</strong> Juan Pérez</p>
+                            <p><small class="text-muted">Publicado el: 10/06/2025</small></p>
+                            <p>
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </p>
+                            <p>"Publicaron mi auto, lo mostraron y cerraron la venta rápido. Muy buena atención y sin preocupaciones."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reseña 3 -->
+                <div class="accordion-item custom-accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed custom-accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Gestión Económica y Legal - "Trámites sin dolores de cabeza"
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionReseñas">
+                        <div class="accordion-body">
+                            <p><strong>Nombre:</strong> Laura Fernández</p>
+                            <p><small class="text-muted">Publicado el: 02/06/2025</small></p>
+                            <p>
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            </p>
+                            <p>"Se encargaron de la financiación, el seguro y todo el papeleo. Ahorré mucho tiempo, ¡muy recomendados!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Botón para dejar una reseña -->
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-primary custom-button-primary">
+                    <i class="bi bi-pencil-square me-2"></i>Dejá tu reseña
                 </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionReseñas">
-                    <div class="accordion-body">
-                        <p><strong>Nombre:</strong> María Gómez</p>
-                        <p><small class="text-muted">Publicado el: 25/06/2025</small></p>
-                        <p>
-                            <span class="text-warning">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </span>
-                        </p>
-                        <p>"Me ayudaron a encontrar un auto perfecto para mi familia y se encargaron de todo. Excelente servicio y atención."</p>
-                    </div>
-                </div>
             </div>
-            <!-- Reseña 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Venta y Cotización - "Vendí sin estrés"
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionReseñas">
-                    <div class="accordion-body">
-                        <p><strong>Nombre:</strong> Juan Pérez</p>
-                        <p><small class="text-muted">Publicado el: 10/06/2025</small></p>
-                        <p>
-                            <span class="text-warning">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                            </span>
-                        </p>
-                        <p>"Publicaron mi auto, lo mostraron y cerraron la venta rápido. Muy buena atención y sin preocupaciones."</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Reseña 3 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Gestión Económica y Legal - "Trámites sin dolores de cabeza"
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionReseñas">
-                    <div class="accordion-body">
-                        <p><strong>Nombre:</strong> Laura Fernández</p>
-                        <p><small class="text-muted">Publicado el: 02/06/2025</small></p>
-                        <p>
-                            <span class="text-warning">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </span>
-                        </p>
-                        <p>"Se encargaron de la financiación, el seguro y todo el papeleo. Ahorré mucho tiempo, ¡muy recomendados!"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Botón para dejar una reseña -->
-        <div class="text-center mt-5">
-            <button type="button" class="btn btn-outline-primary">
-                <i class="bi bi-pencil-square me-2"></i>Dejá tu reseña
-            </button>
-        </div>
+        </section>
     </main>
 
     <footer class="bg-dark text-white py-4 mt-5">
