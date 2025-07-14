@@ -52,11 +52,15 @@ footer {
   padding: 80px;
   background-color: rgb(31, 32, 45);
   text-align: center;
+  color: white;
 }
 
 .banner h1 {
-  color: white;
   font-weight: bolder;
+}
+
+.banner h2 {
+  font-weight: bold;
 }
 
 .banner p {
@@ -67,10 +71,11 @@ footer {
 .banner-sec {
   padding: 70px;
   text-align: center;
-  background-color: rgba(31, 32, 45, 0.284);
+  background-color: rgba(0, 43, 136, 0.378);
 }
 
 .banner-sec h2{
+  margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 700;
   font-size: x-large;
@@ -79,7 +84,7 @@ footer {
 .servicios-index {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: rgba(31, 32, 45, 0.185);
+  background-color: rgba(0, 43, 136, 0.259);
 }
 
 .servicios-index h2 {
@@ -109,6 +114,41 @@ footer {
 }
 
 /*Estilos servicios*/
+
+.custom-servicio {
+  background-color: rgba(0, 43, 136, 0.386);
+}
+
+.custom-servicio h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.custom-servicio p {
+  text-align: center;
+}
+
+.custom-servicio2 {
+  background-color: rgba(0, 43, 136, 0.259);
+}
+
+.custom-servicio2 h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.custom-servicio2 p {
+  text-align: center;
+}
+
+.custom-list-group-item {
+  background-color: rgb(114, 127, 155);
+  border-color: rgba(0, 0, 0, 0.294);
+}
+
+.custom-list-group {
+  border-radius: 25px;
+}
 
 /*Estilos reseñas*/
 
