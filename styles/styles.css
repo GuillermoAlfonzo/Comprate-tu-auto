@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(209, 209, 209);
+    background-color: white;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -22,7 +22,7 @@ footer {
     background-color: rgb(48, 68, 105);
 }
 
-/*Estilos header*/
+/*Estilos nav*/
 
 .logo-nav {
   height: 110px;
@@ -47,6 +47,66 @@ footer {
 }
 
 /*Estilos index*/
+
+.banner {
+  padding: 80px;
+  background-color: rgb(31, 32, 45);
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+.banner p {
+  color: lightgrey;
+  font-size: larger;
+}
+
+.banner-sec {
+  padding: 70px;
+  text-align: center;
+  background-color: rgba(31, 32, 45, 0.284);
+}
+
+.banner-sec h2{
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.servicios-index {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgba(31, 32, 45, 0.185);
+}
+
+.servicios-index h2 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.custom-card-body {
+  background-color: rgba(31, 32, 45, 0.059);
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: rgba(0, 0, 0, 0.435);
+  text-align: center;
+}
+
+.custom-button-primary {
+  background-color: rgba(31, 32, 45, 0.33);
+  border-color: black;
+  border-radius: 25px;
+  color: black;
+}
+
+.custom-button-primary:hover {
+  background-color: rgba(31, 32, 45, 0.5);
+  border-color: black;
+  color: black;
+}
 
 /*Estilos servicios*/
 
