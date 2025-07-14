@@ -33,20 +33,66 @@
             </div>
         </nav>
     </header>
-    
-    <main>
-        <h2>Ayuda</h2>
+    <!--Ayuda-->
+    <main class="container py-5">
+        <h2 class="text-center mb-4">Ayuda</h2>
         <section>
-            <h3 class="preguntas-ayuda-h3">Preguntas frecuentes</h3>
-            <ul>
-                <li class="preguntas-ayuda-li">Pregunta 1</li>
-                <li class="preguntas-ayuda-li">Pregunta 2</li>
-                <li class="preguntas-ayuda-li">Pregunta 3</li>
-                <li class="preguntas-ayuda-li">Pregunta 4</li>
-                <li class="preguntas-ayuda-li">Pregunta 5</li>
-            </ul>
+            <h3 class="text-center mb-4">Preguntas frecuentes</h3>
+            <div class="accordion" id="accordionAyuda">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">¿Cómo eligen el auto ideal para mí?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#accordionAyuda">
+                        <div class="accordion-body">Analizamos tus necesidades (presupuesto, uso, tamaño, etc.) y te recomendamos vehículos que se ajusten. También verificamos su estado y antecedentes.</div>
+                    </div>
+                </div>
+                <!-- Pregunta 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">¿Puedo vender mi auto sin hacer trámites?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#accordionAyuda">
+                        <div class="accordion-body">Sí, nosotros nos encargamos de los trámites y publicaciones. Solo necesitás darnos la documentación básica y una breve descripción del vehículo.</div>
+                    </div>
+                </div>
+                <!-- Pregunta 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">¿Qué incluye la gestión económica y legal?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#accordionAyuda">
+                        <div class="accordion-body">Incluye financiación, seguros, trámites notariales, empadronamiento y más. Te acompañamos hasta que tengas tu auto listo para circular.</div>
+                    </div>
+                </div>
+                <!-- Pregunta 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">¿Qué formas de pago aceptan?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#accordionAyuda">
+                        <div class="accordion-body">Aceptamos transferencias bancarias, pagos con tarjeta de crédito/débito, efectivo y acuerdos con financiación personalizada.</div>
+                    </div>
+                </div>
+                <!-- Pregunta 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeadingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive"> ¿Dónde están ubicados?
+                        </button>
+                    </h2>
+                    <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#accordionAyuda">
+                        <div class="accordion-body">Nuestra oficina se encuentra en Bv. Artigas 9999, Montevideo. También atendemos de forma online o por WhatsApp.</div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
