@@ -1,0 +1,28 @@
+@use "../utilities/mixins";
+@use "../utilities/extend";
+
+.logo-nav {
+  height: 110px;
+  width: auto;
+}
+
+.custom-navbar-toggler {
+  height: 50px;
+  width: 50px;
+}
+
+.custom-menu {
+  width: auto;
+  height: 65px;
+  border: 2px solid rgba(0, 0, 0, 0.594);
+  @include mixins.border-rounded(40px);
+
+  &:focus {
+    box-shadow: none;
+    background-color: lightgray;
+  }
+}
+
+.custom-nav-link {
+  @extend %bold;
+}

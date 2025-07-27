@@ -1,0 +1,13 @@
+@use "../utilities/extend";
+@use "../utilities/variables";
+
+.servicios-index {
+  padding: 80px 0;
+  background-color: variables.$color-primario2;
+
+  h2 {
+    font-size: x-large;
+    @extend %text-center;
+    @extend %bold;
+  }
+}

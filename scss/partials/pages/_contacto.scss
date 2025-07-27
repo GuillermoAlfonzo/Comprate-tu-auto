@@ -1,0 +1,24 @@
+@use "../utilities/extend";
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
+.donde-encontrarnos {
+  background-color: variables.$color-primario;
+
+  h3 {
+    @extend %bold;
+  }
+}
+
+.medios-de-consulta {
+  background-color: variables.$color-primario2;
+
+  h3 {
+    @extend %bold;
+  }
+}
+
+.custom-form-control {
+  border-color: rgba(0, 0, 0, 0.42);
+  @include mixins.border-rounded(10px);
+}

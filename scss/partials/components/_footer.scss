@@ -1,0 +1,12 @@
+@use "../utilities/variables";
+
+footer {
+  background-color: rgb(48, 68, 105);
+}
+
+.custom-footer {
+  background-color: variables.$color-footer;
+  color: white;
+  padding-top: 50px;
+}
+

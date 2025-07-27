@@ -1,0 +1,9 @@
+@use "../utilities/mixins";
+
+.custom-button-primary {
+  @include mixins.custom-button(rgba(31, 32, 45, 0.33));
+
+  &:hover {
+    background-color: rgba(31, 32, 45, 0.5);
+  }
+}

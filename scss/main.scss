@@ -1,0 +1,18 @@
+// main.scss
+
+// 1. Base
+@use "./partials/base/_reset.scss";
+@use "./partials/base/_tipografia.scss";
+
+// 2. Components
+@use "./partials/components/_banner.scss";
+@use "./partials/components/_buttons.scss";
+@use "./partials/components/_cards.scss";
+@use "./partials/components/_footer.scss";
+@use "./partials/components/_navbar.scss";
+
+// 3. Pages
+@use "./partials/pages/_contacto.scss";
+@use "./partials/pages/_index.scss";
+@use "./partials/pages/_reseñas.scss";
+@use "./partials/pages/_servicios.scss";

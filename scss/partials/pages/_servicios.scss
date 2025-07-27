@@ -1,0 +1,30 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+@use "../utilities/extend";
+
+.custom-servicio,
+.custom-servicio2 {
+  background-color: variables.$color-primario;
+
+  h3 {
+    @extend %bolder;
+    @extend %text-center;
+  }
+
+  p {
+    @extend %text-center;
+  }
+}
+
+.custom-servicio2 {
+  background-color: variables.$color-primario2;
+}
+
+.custom-list-group {
+  @include mixins.border-rounded();
+}
+
+.custom-list-group-item {
+  background-color: rgb(114, 127, 155);
+  border-color: rgba(0, 0, 0, 0.294);
+}

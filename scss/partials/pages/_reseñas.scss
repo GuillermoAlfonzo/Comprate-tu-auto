@@ -1,0 +1,29 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
+.custom-accordion-button {
+  background-color: rgb(183, 188, 199);
+  color: black;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+
+  &:not(.collapsed) {
+    background-color: rgb(177, 211, 238);
+  }
+
+  &.collapsed {
+    background-color: rgb(212, 223, 247);
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.custom-accordion-item {
+  background-color: variables.$color-accordion;
+  border: none;
+  @include mixins.border-rounded(10px);
+  margin-bottom: 1rem;
+}

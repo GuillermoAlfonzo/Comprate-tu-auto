@@ -1,0 +1,16 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin border-rounded($radius: 25px) {
+  border-radius: $radius;
+}
+
+@mixin custom-button($bg-color, $text-color: black) {
+  background-color: $bg-color;
+  color: $text-color;
+  border-color: black;
+  @include border-rounded();
+}

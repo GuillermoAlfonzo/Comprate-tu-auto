@@ -1,0 +1,9 @@
+@use "../utilities/mixins";
+@use "../utilities/extend";
+
+.custom-card-body {
+  background-color: rgba(255, 255, 255, 0.405);
+  border: 1px solid rgba(0, 0, 0, 0.435);
+  @include mixins.border-rounded();
+  @extend %text-center;
+}
