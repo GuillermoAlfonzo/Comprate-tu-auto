@@ -4,12 +4,22 @@
 .logo-nav {
   height: 110px;
   width: auto;
+
+  @media (max-width: 576px) {
+    height: 80px;
+  }
 }
 
 .custom-navbar-toggler {
   height: 50px;
   width: 50px;
+
+  @media (max-width: 576px) {
+    height: 40px;
+    width: 40px;
+  }
 }
+
 
 .custom-menu {
   width: auto;

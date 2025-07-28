@@ -6,4 +6,25 @@
   border: 1px solid rgba(0, 0, 0, 0.435);
   @include mixins.border-rounded();
   @extend %text-center;
+
+  @media (max-width: 576px) {
+    padding: 0.8rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+
+    @media (max-width: 576px) {
+      font-size: 1rem;
+    }
+  }
+
+  p {
+    font-size: 0.95rem;
+
+    @media (max-width: 576px) {
+      font-size: 0.85rem;
+    }
+  }
 }
+

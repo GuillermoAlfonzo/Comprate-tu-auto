@@ -31,18 +31,43 @@ body {
   background-color: rgb(31, 32, 45);
   color: white;
 }
+@media (max-width: 768px) {
+  .banner {
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+}
 .banner p {
   color: lightgrey;
   font-size: larger;
+}
+@media (max-width: 576px) {
+  .banner p {
+    font-size: 1rem;
+  }
 }
 
 .banner-sec {
   padding: 70px;
   background-color: rgba(3, 114, 225, 0.386);
 }
+@media (max-width: 768px) {
+  .banner-sec {
+    padding: 40px 20px;
+  }
+}
 .banner-sec h2 {
   margin: 30px 0;
   font-size: x-large;
+}
+@media (max-width: 576px) {
+  .banner-sec h2 {
+    font-size: 1.2rem;
+  }
 }
 
 .custom-button-primary {
@@ -60,6 +85,27 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.435);
   border-radius: 25px;
 }
+@media (max-width: 576px) {
+  .custom-card-body {
+    padding: 0.8rem;
+  }
+}
+.custom-card-body h5 {
+  font-size: 1.2rem;
+}
+@media (max-width: 576px) {
+  .custom-card-body h5 {
+    font-size: 1rem;
+  }
+}
+.custom-card-body p {
+  font-size: 0.95rem;
+}
+@media (max-width: 576px) {
+  .custom-card-body p {
+    font-size: 0.85rem;
+  }
+}
 
 footer {
   background-color: rgb(48, 68, 105);
@@ -70,15 +116,43 @@ footer {
   color: white;
   padding-top: 50px;
 }
+@media (max-width: 768px) {
+  .custom-footer {
+    padding-top: 30px;
+  }
+  .custom-footer .row {
+    text-align: center;
+  }
+  .custom-footer h5 {
+    font-size: 1.1rem;
+  }
+  .custom-footer p, .custom-footer li, .custom-footer a {
+    font-size: 0.9rem;
+  }
+  .custom-footer .fs-4 {
+    font-size: 1.4rem !important;
+  }
+}
 
 .logo-nav {
   height: 110px;
   width: auto;
 }
+@media (max-width: 576px) {
+  .logo-nav {
+    height: 80px;
+  }
+}
 
 .custom-navbar-toggler {
   height: 50px;
   width: 50px;
+}
+@media (max-width: 576px) {
+  .custom-navbar-toggler {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .custom-menu {
@@ -107,8 +181,18 @@ footer {
   padding: 80px 0;
   background-color: rgba(3, 114, 225, 0.527);
 }
+@media (max-width: 768px) {
+  .servicios-index {
+    padding: 40px 15px;
+  }
+}
 .servicios-index h2 {
   font-size: x-large;
+}
+@media (max-width: 576px) {
+  .servicios-index h2 {
+    font-size: 1.3rem;
+  }
 }
 
 .custom-accordion-button {

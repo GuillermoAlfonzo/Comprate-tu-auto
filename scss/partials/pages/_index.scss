@@ -5,9 +5,17 @@
   padding: 80px 0;
   background-color: variables.$color-primario2;
 
+  @media (max-width: 768px) {
+    padding: 40px 15px;
+  }
+
   h2 {
     font-size: x-large;
     @extend %text-center;
     @extend %bold;
+
+    @media (max-width: 576px) {
+      font-size: 1.3rem;
+    }
   }
 }
